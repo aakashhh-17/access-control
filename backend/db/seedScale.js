@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';   
 import { pathToFileURL } from 'node:url';
 import { pool } from '../src/db.js';
 import { config } from '../src/config.js';
